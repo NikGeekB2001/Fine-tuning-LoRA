@@ -83,6 +83,4 @@ model = AutoModelForTokenClassification.from_pretrained(model_name)
 # Загружаем LoRA-адаптер
 model = PeftModel.from_pretrained(model, "./models/lora_adapter")
 ```
-ТЕестирование
-pip install matplotlib
-pip install seaborn\
+
